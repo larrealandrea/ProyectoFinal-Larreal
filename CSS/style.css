@@ -1,0 +1,150 @@
+body {    
+    background-image: url(../img/pokeball-pokemon-minimal.jpg);
+    display: flex;
+    font-family: 'Quicksand', sans-serif; 
+
+}
+
+main{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.listaPokebola {
+    cursor: pointer;
+    margin-left: 20%;
+    font-size: 2rem;
+    list-style-image: url(data:image/png;base64,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);
+
+}
+
+#pokemonCard{
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 20px;
+
+}
+
+.pokemon-tipo-tag{
+    border-radius: 50px;
+    text-align: center;
+    width: 100%;
+
+}
+
+#pokemonImage{
+    width: 20vw;
+    background-color: rgb(252, 249, 249);
+    border-radius: 20px;
+}
+
+#tipoPokemon{
+    display: flex;
+    gap: 1rem
+}
+
+
+#listaNombres{
+    overflow-y: auto;
+    max-height: 100vh;
+    min-width: 250px;
+}
+
+#nombrePokemon{
+    font-family: 'Mansalva', cursive;
+    font-size: 50px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ice{
+    background-color: #85C1E9;
+}
+
+.bug{
+    background-color: #0a4d3f;
+    color: white;
+}
+
+.dark{
+    background-color: rgb(24, 22, 22);
+    color: white;
+}
+
+.dragon{
+    background-color: rgb(171, 125, 177);
+}
+
+.electric{
+    background-color: #edff47;
+}
+
+.fairy {
+    background-color: rgb(202, 23, 98);
+}
+.fighting {
+    background-color: orange;
+}
+
+.fire{
+    background-color: rgb(175, 35, 35);
+}
+
+.flying{
+    background-color: rgb(133, 131, 130);
+}
+
+.ghost{
+    background-color: rgb(56, 45, 56);
+    color: white;
+}
+
+.grass{
+    background-color: rgb(123, 185, 29);
+}
+
+.ground{
+    background-color: rgb(66, 36, 11);
+    color: white;
+}
+
+.normal{
+    background-color: rgb(212, 152, 125);
+}
+
+.poison{
+    background-color: rgb(141, 46, 196);
+    color: white;
+}
+
+.psychic{
+    background-color: #8f164e;
+    color: white;
+}
+
+.rock{
+    background-color: rgb(46, 23, 14);
+    color: white;
+}
+
+.steel{
+    background-color: grey;
+}
+
+.water{
+    background-color: rgb(17, 66, 230);
+    color: white;
+}
+
+.shadow{
+    background-color: rgb(146, 143, 143);
+}
+
+.unknown{
+    background-color: rgb(169, 182, 173);
+}
+
