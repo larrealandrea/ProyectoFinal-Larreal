@@ -14,10 +14,25 @@ main{
 
 .listaPokebola {
     cursor: pointer;
-    margin-left: 20%;
+    margin-left: 40px;
     font-size: 2rem;
     list-style-image: url(data:image/png;base64,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);
 
+}
+
+#loader{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+}
+
+nav {
+    max-width: 30vw;
+    width: 500px;
+    padding: 1rem
 }
 
 #pokemonCard{
@@ -50,6 +65,8 @@ main{
     overflow-y: auto;
     max-height: 100vh;
     min-width: 250px;
+    margin-top: 1rem;
+    padding-left: 0;
 }
 
 #nombrePokemon{

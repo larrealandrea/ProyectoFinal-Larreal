@@ -14,17 +14,20 @@
 <body>
 
 <nav>
+    <input type="text" class="form-control" name="pokemonNombre" id="buscadorInput" placeholder="Buscador">
     <ul id="listaNombres">
     </ul>
 </nav>
 
 <main>
+    <div class="spinner-grow text-dark" id="loader" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
     <div id="pokemonCard" class="card ">
         <div class="card-body text-center align-items-center ">
-            <img id="pokemonImage" alt="imagen pokemon">
+            <img id="pokemonImage" src="https://elcomercio.pe/resizer/0nSljC0qpzeZ8hI1ef91urLwvK8=/980x528/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/6OTCX6WE2BGJPCQJQYRACVEL24.jpg" alt="imagen pokemon">
             <h2 id="nombrePokemon"></h2>
             <h3 id="numeroPokemon"></h3>
-    
             <p id="alturaPokemon"></p>
             <p id="pesoPokemon"></p>
             <div id="tipoPokemon"> </div>
