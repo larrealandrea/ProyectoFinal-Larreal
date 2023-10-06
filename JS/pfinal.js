@@ -1,5 +1,5 @@
 Swal.fire({
-  title: "Bienvenido a nuestra pokedex",
+  title: "Bienvenido, encuentra tu pokemon favorito",
   width: 600,
   padding: "3em",
   color: "black",
@@ -88,7 +88,7 @@ function mostrarPokemon() {
   tipoPokemon.innerHTML = "";
 
   nombrePokemon.innerHTML = pokemonSeleccionado.name;
-  numeroPokemon.innerHTML = `Id Pokemon:${pokemonSeleccionado.id}`;
+  numeroPokemon.innerHTML = `Id Pokemon: ${pokemonSeleccionado.id}`;
   alturaPokemon.innerHTML = `Height: ${pokemonSeleccionado.height}`;
   pesoPokemon.innerHTML = `Weight: ${pokemonSeleccionado.weight}`;
 

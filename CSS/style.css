@@ -12,6 +12,10 @@ main{
     width: 100%;
 }
 
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
 .listaPokebola {
     cursor: pointer;
     margin-left: 40px;
@@ -46,6 +50,8 @@ nav {
     border-radius: 50px;
     text-align: center;
     width: 100%;
+    font-weight: bold;
+    font-size: 25px;
 
 }
 
@@ -102,6 +108,7 @@ nav {
 
 .fairy {
     background-color: rgb(202, 23, 98);
+    color: white;
 }
 .fighting {
     background-color: orange;
@@ -109,10 +116,11 @@ nav {
 
 .fire{
     background-color: rgb(175, 35, 35);
+    color: white;
 }
 
 .flying{
-    background-color: rgb(133, 131, 130);
+    background-color: rgb(88, 243, 248)
 }
 
 .ghost{
